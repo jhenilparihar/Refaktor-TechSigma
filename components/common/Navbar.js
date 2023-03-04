@@ -156,10 +156,11 @@ function Navbar(props) {
               </div>
             )}
            
-            {<Bot showBot={showBot} setShowBot={setShowBot}></Bot>}
+           
           </div>
         )}
       </div>
+      {<Bot showBot={showBot} setShowBot={setShowBot}></Bot>}
     </div>
   );
 }
